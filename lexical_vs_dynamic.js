@@ -26,3 +26,6 @@ function hi2(){
 }
 
 hi()
+
+
+console.log("this one is branching output")
