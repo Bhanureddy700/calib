@@ -13,4 +13,13 @@ const fuun2 = (c,d)=>{
     console.log(c+d)
     return c+d
 }
-console.log(fuun2())
+console.log(fuun2(10,10))
+
+function hi(){
+    return (`my name is ${this.name}`)
+}
+const me={
+    name:"bhanu"
+}
+const nam = hi.bind(me)
+console.log(nam())
