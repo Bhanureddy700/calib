@@ -3,7 +3,6 @@ const fun = function(a,b){
 }
 console.log(fun(5,9))
 
-
 const fun1 =()=>{
     console.log("hello my name is bhanu");
 }
@@ -23,12 +22,3 @@ const me={
 }
 const nam = hi.bind(me)
 console.log(nam())
-
-function college(){
-    console.log(`we are from ${this.name}`)
-}
-
-const n = {
-    name:"saveetha"
-}
-college.call(n)
