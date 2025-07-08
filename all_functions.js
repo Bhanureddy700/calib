@@ -23,3 +23,12 @@ const me={
 }
 const nam = hi.bind(me)
 console.log(nam())
+
+function college(){
+    console.log(`we are from ${this.name}`)
+}
+
+const n = {
+    name:"saveetha"
+}
+college.call(n)
