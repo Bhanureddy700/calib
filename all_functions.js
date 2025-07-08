@@ -25,3 +25,4 @@ const nam = hi.bind(me)
 console.log(nam())
 
 console.log("hiiiii")
+
