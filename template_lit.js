@@ -49,3 +49,5 @@ const add = require("./module.js")
 console.log(add())
 
 // import { abc } from "./module"
+
+

@@ -5,3 +5,11 @@ module.exports = function abc(){
 // export function add() {
 //   return 5+5;
 // }
+
+
+
+
+
+module.exports = function abcd(){
+    return 5+6
+}
