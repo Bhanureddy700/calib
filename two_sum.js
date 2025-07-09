@@ -1,15 +1,15 @@
 const array = [2,11,15,7]
 let target = 9
 let c= 0
-for(let i =0;i<array.length-1;i++){
-for(let j =1;j<array.length;j++){
-    if(array[i]+array[j]===target){
-        console.log(i,j)
-        c=1
-        break;
+array.sort((a,b)=>a-b)
+console.log(array)
+let i = 0, j= (array.length)-1
+while(array[i]+array[j] !== target && i<j){
+    if(array[i]+array[j] < target){
+        i+=1
+    }
+    else{
+        j-=1
     }
 }
-}
-if(c === 0){
-    console.log("no pair existed")
-}
+console.log(i,j)
