@@ -31,6 +31,6 @@ p1.g()
 // p1.wishing();
 // p1.abc();
 
-
+console.log("hi")
 console.log("again in main")
 console.log("changed again")
