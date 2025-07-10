@@ -30,3 +30,6 @@ p1.g()
 
 // p1.wishing();
 // p1.abc();
+
+
+console.log("again in main")
