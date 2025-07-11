@@ -5,6 +5,7 @@ var k = 9
 const abc = {
     name:console.log(k)
 }
+
 console.log(a)
 var b = 10
 var b = 15
