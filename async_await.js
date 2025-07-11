@@ -16,5 +16,5 @@ console.log(abc)
 }
 
 
-
+console.log("hii")
 wishing()
